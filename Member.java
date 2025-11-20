@@ -4,7 +4,7 @@ package Project1;
  * Project: Library Simulation - Phase #2 (Final Integrated Product)
  * File: Member.java
  * Encapsulates the data and behavior of a library member account using OOP concepts.
- * Group Members: [Insert Student Name and ID 1], [Insert Student Name and ID 2], [Insert Student Name and ID 3]
+ * Group Members: [Insert Student Name and ID 1], [Ibrahim Alshammary 446102105], [Insert Student Name and ID 3]
  * GitHub Repository Link: [Insert your GitHub Repository link here]
  */
 
@@ -110,11 +110,11 @@ public class Member {
     // --- Admin (Static) Statistics ---
     // Contributer: Ibrahim Alshammary
     public static void displayTotalStatistics() {
-        System.out.println("\n--- Library Total Accumulated Statistics ---");
+        System.out.println("\n-- Library Total Accumulated Statistics --");
         System.out.printf(" * Total Revenue Generated (All Accounts): $%.2f%n", TotalRevenue);
         System.out.println(" * Total View Borrowed Operation Used (All Accounts): " + TotalViewBorrowed);
-        System.out.println(" * Total Borrows Operation Used (All Accounts): " + TotalBorrows);
-        System.out.println(" * Total Returns Operation Used (All Accounts): " + TotalReturns);
+        System.out.println(" * Total Book Borrows Operation Used (All Accounts): " + TotalBorrows);
+        System.out.println(" * Total Book Returns Operation Used (All Accounts): " + TotalReturns);
 
         System.out.print(" * Most Frequent Operation: ");
         if (TotalBorrows > TotalReturns)
