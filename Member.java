@@ -107,8 +107,8 @@ public class Member {
 
         System.out.println("Session statistics for " + this.name + " have been reset to zero.");
     }
-
     // --- Admin (Static) Statistics ---
+    // Contributer: Ibrahim Alshammary
     public static void displayTotalStatistics() {
         System.out.println("\n--- Library Total Accumulated Statistics ---");
         System.out.printf(" * Total Revenue Generated (All Accounts): $%.2f%n", TotalRevenue);
@@ -126,6 +126,7 @@ public class Member {
 
         System.out.println("--------------------------------------------");
     }
+    
 
     // --- Getters ---
     public int getId() {
